@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+#familyalbum{
+    border-style: solid;
+    padding: 5px;
+    width: 500px;
+    text-align: center;
+}
