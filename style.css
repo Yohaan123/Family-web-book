@@ -4,6 +4,7 @@ body {
 #familyalbum{
     border-style: solid;
     padding: 5px;
-    width: 500px;
+    width: 300px;
     text-align: center;
+    height: 400px;
 }

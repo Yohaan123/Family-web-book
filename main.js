@@ -1,10 +1,13 @@
-var reasonarray=["sidharrth","ruchi","Yohaan","bhagwati","shobha","vineet","aditi","dia","lavaneea"];
-var imagearray=["Fatherimg.jpg","Father img.jpg","Father img.jpg","Father img.jpg","Father img.jpg",
-"Father img.jpg","Father img.jpg","Father img.jpg","Father img.jpg"];
+var reasonarray=["Sidharrth","Ruchi","Yohaan"];
+var imagearray=["Father img.jpg","mom.jpg","me.jpg"];
 
 var i=0;
 function nextslide(){
-    document.getElementById("reasontext").innerHTML=reasonarray[i];
+    console.log(reasonarray[i]);
+    document.getElementById("name").innerHTML=reasonarray[i];
     document.getElementById("familyalbum").src=imagearray[i];
     i++;
+     if(i >= 3){
+         i=0;
+     }
 }
